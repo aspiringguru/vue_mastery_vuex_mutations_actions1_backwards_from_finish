@@ -107,6 +107,24 @@
       "date": "2019-03-01T00:40:00.000Z",
       "time": "10:00",
       "attendees": []
+    },
+    {
+      "id": 5113255,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "bbbb",
+      "description": "bbbdescription",
+      "location": "bbblocate",
+      "date": "2019-03-08T01:36:00.000Z",
+      "time": "10:00",
+      "attendees": []
     }
   ]
 }
