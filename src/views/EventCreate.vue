@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Create an Event</h1>
-    <form @submit.prevent="createEvent">
+    <form>
       <label>Select a category</label>
       <select v-model="event.category">
         <option v-for="cat in categories" :key="cat">{{ cat }}</option>
@@ -58,27 +58,7 @@ export default {
     }
     return {
       times,
-      categories: this.$store.state.categories,
-      event: this.createFreshEventObject()
-    }
-  },
-  methods: {
-    createFreshEventObject() {
-      const user = this.$store.state.user
-      const id = Math.floor(Math.random() * 10000000)
-
-      return {
-        id: id,
-        user: user,
-        category: '',
-        organizer: user,
-        title: '',
-        description: '',
-        location: '',
-        date: '',
-        time: '',
-        attendees: []
-      }
+      categories: this.$store.state.categories
     }
   }
 }
