@@ -63,10 +63,6 @@ export default {
     }
   },
   methods: {
-    createEvent() {
-      this.$store.dispatch('createEvent', this.event)
-      this.event = this.createFreshEventObject()
-    },
     createFreshEventObject() {
       const user = this.$store.state.user
       const id = Math.floor(Math.random() * 10000000)

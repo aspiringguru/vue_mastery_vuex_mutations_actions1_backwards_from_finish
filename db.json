@@ -125,6 +125,24 @@
       "date": "2019-03-08T01:36:00.000Z",
       "time": "10:00",
       "attendees": []
+    },
+    {
+      "id": 7988321,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "zzz11title",
+      "description": "zzz111description",
+      "location": "zzzlocation",
+      "date": "2019-03-01T02:11:00.000Z",
+      "time": "10:00",
+      "attendees": []
     }
   ]
 }
